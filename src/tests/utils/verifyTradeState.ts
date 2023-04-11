@@ -2,7 +2,7 @@ import { Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 import AuctionHouseSdk from "solana/auction-house/AuctionHouseSdk";
 import SaleType from "types/enum/SaleType";
 
-// See programs/formfn-auction-house/lib.rs
+// See programs/bullistic-auction-house/lib.rs
 const DEFAULT_TRADE_STATE_SIZE = 130;
 
 export default async function verifyTradeState(

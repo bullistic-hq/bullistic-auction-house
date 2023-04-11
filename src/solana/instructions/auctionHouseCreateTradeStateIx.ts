@@ -1,4 +1,4 @@
-import { Maybe } from "@formfunction-hq/formfunction-program-shared";
+import { Maybe } from "@bullistic-hq/bullistic-program-shared";
 import { BN } from "@project-serum/anchor";
 import {
   PublicKey,

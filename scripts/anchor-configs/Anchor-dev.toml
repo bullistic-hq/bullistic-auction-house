@@ -1,8 +1,8 @@
 [programs.localnet]
-formfn_auction_house = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+bullistic_auction_house = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
 
 [programs.devnet]
-formfn_auction_house = "devmBQyHHBPiLcuCqbWWRYxCG33ntAfPD5nXZeLd4eX"
+bullistic_auction_house = "devmBQyHHBPiLcuCqbWWRYxCG33ntAfPD5nXZeLd4eX"
 
 [registry]
 url = "https://anchor.projectserum.com"

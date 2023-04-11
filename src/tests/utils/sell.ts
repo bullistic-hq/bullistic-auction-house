@@ -1,4 +1,4 @@
-import { logIfDebug } from "@formfunction-hq/formfunction-program-shared";
+import { logIfDebug } from "@bullistic-hq/bullistic-program-shared";
 import {
   Connection,
   Keypair,

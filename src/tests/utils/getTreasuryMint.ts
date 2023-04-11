@@ -2,7 +2,7 @@ import {
   ixsToTx,
   Maybe,
   WRAPPED_SOL_MINT,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import {
   createInitializeMintInstruction,
   MintLayout,

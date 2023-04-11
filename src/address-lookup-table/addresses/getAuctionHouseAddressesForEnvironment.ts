@@ -1,4 +1,4 @@
-import { Environment } from "@formfunction-hq/formfunction-program-shared";
+import { Environment } from "@bullistic-hq/bullistic-program-shared";
 import { PublicKey } from "@solana/web3.js";
 import getAuctionHouseAddressesForCurrency from "address-lookup-table/addresses/auction-house/getAuctionHouseAddressesForCurrency";
 import AuctionHouseOverrideForTest from "address-lookup-table/types/AuctionHouseOverrideForTest";

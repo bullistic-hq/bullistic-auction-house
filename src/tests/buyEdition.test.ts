@@ -4,7 +4,7 @@ import {
   findEditionPda,
   getTokenAccountInfo,
   requestAirdrops,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import {
   Edition,
   MasterEditionV2,

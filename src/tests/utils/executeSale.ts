@@ -1,7 +1,7 @@
 import {
   getTokenAmount,
   logIfDebug,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import {
   Connection,
   Keypair,

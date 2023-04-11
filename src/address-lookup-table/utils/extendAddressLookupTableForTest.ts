@@ -1,7 +1,4 @@
-import {
-  Environment,
-  sleep,
-} from "@formfunction-hq/formfunction-program-shared";
+import { Environment, sleep } from "@bullistic-hq/bullistic-program-shared";
 import { Connection, PublicKey } from "@solana/web3.js";
 import AuctionHouseOverrideForTest from "address-lookup-table/types/AuctionHouseOverrideForTest";
 import handleExtendTable from "address-lookup-table/utils/handleExtendTable";

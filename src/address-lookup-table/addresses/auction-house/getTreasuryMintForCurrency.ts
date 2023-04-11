@@ -2,11 +2,11 @@ import {
   assertUnreachable,
   Environment,
   WRAPPED_SOL_MINT,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { PublicKey } from "@solana/web3.js";
 import Currency from "address-lookup-table/types/Currency";
 
-// Lifted from formfn-monorepo.
+// Lifted from bullistic-monorepo.
 export default function getTreasuryMintForCurrency(
   environment: Environment,
   currency: Currency

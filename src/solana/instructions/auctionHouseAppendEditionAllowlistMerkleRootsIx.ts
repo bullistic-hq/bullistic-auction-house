@@ -1,4 +1,4 @@
-import { MerkleRoot } from "@formfunction-hq/formfunction-program-shared";
+import { MerkleRoot } from "@bullistic-hq/bullistic-program-shared";
 import {
   PublicKey,
   SystemProgram,

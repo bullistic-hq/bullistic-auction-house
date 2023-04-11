@@ -1,4 +1,4 @@
-import { Environment } from "@formfunction-hq/formfunction-program-shared";
+import { Environment } from "@bullistic-hq/bullistic-program-shared";
 import { Connection, PublicKey } from "@solana/web3.js";
 import handleCreateTable from "address-lookup-table/utils/handleCreateTable";
 

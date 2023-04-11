@@ -2,7 +2,7 @@
  * These represent errors thrown from other programs (not our own) which we
  * still want to match against for test assertions.
  *
- * If needed these could be moved to formfn-program-shared.
+ * If needed these could be moved to bullistic-program-shared.
  */
 
 // Solana or Anchor program error codes

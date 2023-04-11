@@ -1,4 +1,4 @@
-// Lifted from formfn-monorepo.
+// Lifted from bullistic-monorepo.
 enum Currency {
   Bonk = "Bonk",
   FamousFoxFederation = "FamousFoxFederation",

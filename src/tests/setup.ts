@@ -1,4 +1,4 @@
-import { requestAirdrops } from "@formfunction-hq/formfunction-program-shared";
+import { requestAirdrops } from "@bullistic-hq/bullistic-program-shared";
 import { PublicKey } from "@solana/web3.js";
 import readAddressLookupTableFromDisk from "address-lookup-table/utils/readAddressLookupTableFromDisk";
 import {
@@ -58,7 +58,7 @@ beforeAll(async () => {
   });
 
   const programCreator = getProgram(WALLET_CREATOR);
-  // By default, all formfn-auction-house-* tests will use the
+  // By default, all bullistic-auction-house-* tests will use the
   // same auction house. Thus, we create it before all tests run
   // to ensure that there aren't any weird race conditions if these
   // tests run in parallel. Some tests override this and create another

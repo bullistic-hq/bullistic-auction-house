@@ -2,7 +2,7 @@ import {
   assertUnreachable,
   Environment,
   requestAirdrops,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { Connection, Keypair } from "@solana/web3.js";
 
 export default async function fundPayerKeypair(

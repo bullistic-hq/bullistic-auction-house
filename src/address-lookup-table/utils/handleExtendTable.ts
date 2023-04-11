@@ -3,7 +3,7 @@ import {
   Environment,
   forEachAsync,
   ixToTx,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import {
   AddressLookupTableProgram,
   Connection,

@@ -2,7 +2,7 @@ import {
   convertNumberForIxArg,
   findEditionPda,
   Maybe,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import {
   PublicKey,
   SystemProgram,

@@ -14,9 +14,9 @@
  * That means there are roughly ~400 bytes of space left in that transaction.
  *
  * Based on this research into proof sizes:
- * https://github.com/formfunction-hq/formfn-gumdrop/pull/95/files#diff-7779486f4260a55566c09e18350d62c73a0a8e9756413408dcb26a9fa5019f34
+ * https://github.com/bullistic-hq/bullistic-gumdrop/pull/95/files#diff-7779486f4260a55566c09e18350d62c73a0a8e9756413408dcb26a9fa5019f34
  * Which is now committed here:
- * https://github.com/formfunction-hq/formfn-gumdrop/blob/main/src/scripts/estimateMerkleProofSizes.ts
+ * https://github.com/bullistic-hq/bullistic-gumdrop/blob/main/src/scripts/estimateMerkleProofSizes.ts
  *
  * The above transaction used the smallest tree size of 2 addresses which
  * requires a proof size of 32 bytes.

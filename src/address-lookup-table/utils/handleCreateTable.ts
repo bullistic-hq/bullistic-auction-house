@@ -1,7 +1,4 @@
-import {
-  Environment,
-  ixToTx,
-} from "@formfunction-hq/formfunction-program-shared";
+import { Environment, ixToTx } from "@bullistic-hq/bullistic-program-shared";
 import {
   AddressLookupTableProgram,
   Connection,

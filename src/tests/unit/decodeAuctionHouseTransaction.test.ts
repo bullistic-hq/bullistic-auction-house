@@ -5,7 +5,7 @@ import {
   expectPublicKeysEqual,
   GenericDecodedTransaction,
   uppercaseFirstLetter,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { Connection, PublicKey } from "@solana/web3.js";
 import getAuctionHouseProgramIdForEnvironment from "address-lookup-table/addresses/auction-house/getAuctionHouseProgramIdForEnvironment";
 import getRpcFromEnvironment from "address-lookup-table/utils/getRpcFromEnvironment";

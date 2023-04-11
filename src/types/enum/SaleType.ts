@@ -1,4 +1,4 @@
-// Keep in sync with TradeStateSaleType in programs/formfn-auction-house/src/lib.rs
+// Keep in sync with TradeStateSaleType in programs/bullistic-auction-house/src/lib.rs
 enum SaleType {
   Auction = 1,
   InstantSale = 2,

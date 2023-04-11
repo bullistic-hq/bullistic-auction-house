@@ -1,4 +1,4 @@
-import { findTokenMetadataPda } from "@formfunction-hq/formfunction-program-shared";
+import { findTokenMetadataPda } from "@bullistic-hq/bullistic-program-shared";
 import { web3 } from "@project-serum/anchor";
 import {
   ASSOCIATED_TOKEN_PROGRAM_ID,

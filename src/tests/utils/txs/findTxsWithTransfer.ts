@@ -1,7 +1,4 @@
-import {
-  filterNulls,
-  Maybe,
-} from "@formfunction-hq/formfunction-program-shared";
+import { filterNulls, Maybe } from "@bullistic-hq/bullistic-program-shared";
 import { ParsedTransactionWithMeta, PublicKey } from "@solana/web3.js";
 import parseTxWithTransfer from "tests/utils/txs/parse/parseTxWithTransfer";
 

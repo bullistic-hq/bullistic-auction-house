@@ -14,7 +14,7 @@ fi
 # Copy devnet values to Anchor.toml
 cp scripts/anchor-configs/Anchor-dev.toml Anchor.toml
 # Swap program id in lib.rs to devnet program ID
-sed -i '' "s/formn3hJtt8gvVKxpCfzCJGuoz6CNUFcULFZW18iTpC/devmBQyHHBPiLcuCqbWWRYxCG33ntAfPD5nXZeLd4eX/" programs/formfn-auction-house/src/lib.rs
+sed -i '' "s/formn3hJtt8gvVKxpCfzCJGuoz6CNUFcULFZW18iTpC/devmBQyHHBPiLcuCqbWWRYxCG33ntAfPD5nXZeLd4eX/" programs/bullistic-auction-house/src/lib.rs
 
 printf "\nBuilding devnet program...\n"
 # Build devnet program
@@ -25,13 +25,13 @@ echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
   # Deploy program to devnet
-  printf "\nConfirmed. Calling solana program deploy ./target/deploy/formfn_auction_house.so -u devnet -k ./keys/devnet/deployer-keypair.json --program-id ./keys/devnet/program-keypair.json\n"
-  solana program deploy ./target/deploy/formfn_auction_house.so -u devnet -k ./keys/devnet/deployer-keypair.json --program-id ./keys/devnet/program-keypair.json
+  printf "\nConfirmed. Calling solana program deploy ./target/deploy/bullistic_auction_house.so -u devnet -k ./keys/devnet/deployer-keypair.json --program-id ./keys/devnet/program-keypair.json\n"
+  solana program deploy ./target/deploy/bullistic_auction_house.so -u devnet -k ./keys/devnet/deployer-keypair.json --program-id ./keys/devnet/program-keypair.json
 fi
 
 printf "Don't forget to update the Program Versions document with the new deployed program version!\n"
 
 # Swap program id back
-sed -i '' "s/devmBQyHHBPiLcuCqbWWRYxCG33ntAfPD5nXZeLd4eX/formn3hJtt8gvVKxpCfzCJGuoz6CNUFcULFZW18iTpC/" programs/formfn-auction-house/src/lib.rs
+sed -i '' "s/devmBQyHHBPiLcuCqbWWRYxCG33ntAfPD5nXZeLd4eX/formn3hJtt8gvVKxpCfzCJGuoz6CNUFcULFZW18iTpC/" programs/bullistic-auction-house/src/lib.rs
 # Restore Anchor.toml
 cp scripts/anchor-configs/Anchor-prod.toml Anchor.toml

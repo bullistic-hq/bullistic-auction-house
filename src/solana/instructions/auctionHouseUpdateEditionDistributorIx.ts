@@ -3,7 +3,7 @@ import {
   findEditionPda,
   Maybe,
   MaybeUndef,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { PublicKey, TransactionInstruction } from "@solana/web3.js";
 import convertPriceFunctionTypeToAnchorArg from "solana/auction-house/convertPriceFunctionTypeToAnchorArg";
 import findEditionDistributor from "solana/pdas/findEditionDistributor";

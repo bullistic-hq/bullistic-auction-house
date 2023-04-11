@@ -449,7 +449,7 @@ checksum = "14c189c53d098945499cdfa7ecc63567cf3886b3332b312a5b4585d8d3a6a610"
 [[package]]
 name = "campaign-treasury-manager"
 version = "0.0.7"
-source = "registry+ssh://git@ssh.shipyard.rs/formfunction-hq/crate-index.git"
+source = "registry+ssh://git@ssh.shipyard.rs/bullistic-hq/crate-index.git"
 checksum = "a1bfaa00862e4ba988940a22cb6be346c9da650d347dae703743dc7b83097a40"
 dependencies = [
  "anchor-lang",
@@ -737,7 +737,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1"
 
 [[package]]
-name = "formfn-auction-house"
+name = "bullistic-auction-house"
 version = "0.1.0"
 dependencies = [
  "anchor-lang",

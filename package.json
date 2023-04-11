@@ -1,8 +1,8 @@
 {
-  "name": "@formfunction-hq/formfunction-auction-house",
+  "name": "@bullistic-hq/bullistic-auction-house",
   "version": "0.0.5-alpha.146",
-  "description": "TypeScript SDK for interacting with Formfunction's auction house program.",
-  "repository": "git://github.com/formfunction-hq/formfn-auction-house.git",
+  "description": "TypeScript SDK for interacting with Bullistic's auction house program.",
+  "repository": "git://github.com/bullistic-hq/bullistic-auction-house.git",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "UNLICENSED",
@@ -10,7 +10,7 @@
     "dist"
   ],
   "publishConfig": {
-    "@formfunction-hq:registry": "https://npm.pkg.github.com"
+    "@bullistic-hq:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "prepare": "husky install",
@@ -39,7 +39,7 @@
     "dump": "./scripts/solana-program-dump.sh"
   },
   "dependencies": {
-    "@formfunction-hq/formfunction-program-shared": "0.0.61",
+    "@bullistic-hq/bullistic-program-shared": "0.0.63",
     "@metaplex-foundation/mpl-token-auth-rules": "^1.1.0",
     "@msgpack/msgpack": "^2.8.0",
     "@solana/spl-token": "^0.3.7",

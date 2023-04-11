@@ -2,7 +2,7 @@ import {
   createAtaIfNotExists,
   mintTo,
   requestAirdrops,
-} from "@formfunction-hq/formfunction-program-shared";
+} from "@bullistic-hq/bullistic-program-shared";
 import { createMint } from "@solana/spl-token";
 import { Keypair, LAMPORTS_PER_SOL } from "@solana/web3.js";
 import getConnectionForTest from "tests/utils/getConnectionForTest";

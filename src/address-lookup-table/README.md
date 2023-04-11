@@ -2,7 +2,7 @@
 
 This folder contains some utils for creating and managing [address lookup tables](https://edge.docs.solana.com/developing/lookup-tables).
 
-See the [design doc for more details](https://www.notion.so/formfunction/Design-Doc-Address-Lookup-Tables-e038d49ff7ff4d1da2eda668bdfbcfb3).
+See the [design doc for more details](https://www.notion.so/bullistic/Design-Doc-Address-Lookup-Tables-e038d49ff7ff4d1da2eda668bdfbcfb3).
 
 To run the scripts, from the repo top level run the following commands:
 
